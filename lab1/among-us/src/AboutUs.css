@@ -1,0 +1,79 @@
+.about {
+    background-color: #6B062D;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    min-height: 82vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about .name {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.about-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-item {
+    background: #4C0822;
+    padding: 25px 20px;
+    border-radius: 15px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.about-item span {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    background-color: #6B062D;
+    border: 2px solid #ff4d6d;
+    font-size: 36px;
+    margin-bottom: 15px;
+    transition: all 0.5s ease;
+}
+
+.about-item h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    opacity: 0.9;
+    transition: all 0.5s ease;
+}
+
+.about-item p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+.about-item:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(255, 77, 109, 0.4);
+}
+
+.about-item:hover span {
+    transform: rotate(360deg) scale(1.1);
+    background-color: #ff4d6d;
+    color: #fff;
+}
+
+.about-item:hover h2 {
+    opacity: 1;
+    transform: scale(1.05);
+}
