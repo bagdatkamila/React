@@ -1,0 +1,45 @@
+.weather-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    background: linear-gradient(135deg, #1b1f4a, #3e0898);
+    min-height: 100vh;
+    color: white;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.load-btn {
+    background: #ebfffc;
+    color: #2f4680;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.load-btn:hover {
+    background: #2f4680;
+    color: #ebfffc;
+    transform: scale(1.05);
+}
+
+/* исправленный контейнер карточек */
+.cards-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    justify-items: center;
+}
