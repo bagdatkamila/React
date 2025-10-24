@@ -1,0 +1,34 @@
+.forecast-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.forecast-card {
+  background: #f1f9fb;
+  border-radius: 12px;
+  padding: 10px;
+  width: 120px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.forecast-card:hover {
+  transform: scale(1.05);
+}
+
+.forecast-card img {
+  width: 40px;
+}
+
+.forecast-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
