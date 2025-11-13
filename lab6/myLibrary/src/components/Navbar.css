@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid var(--border);
+  padding: 0.8rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar h2 {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.navbar a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.navbar a.active {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+

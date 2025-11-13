@@ -1,0 +1,66 @@
+.about-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  background-color: #f9fafb;
+}
+
+.about-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+  max-width: 700px;
+  color: #222;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.about-card h2 {
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.about-card p {
+  font-size: 1.05rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.about-card strong {
+  color: #000;
+}
+
+.about-card a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.about-card a:hover {
+  text-decoration: underline;
+}
+
+.about-note {
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #666;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .about-card {
+    padding: 2rem 1.2rem;
+  }
+
+  .about-card h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-card p {
+    font-size: 0.95rem;
+  }
+}
