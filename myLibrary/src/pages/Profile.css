@@ -1,0 +1,37 @@
+.profile-page {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.profile-page p {
+  margin: 0.5rem 0;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.profile-page button {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.profile-page button:hover {
+  background: #0056b3;
+}

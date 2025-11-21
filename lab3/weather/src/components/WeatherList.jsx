@@ -18,7 +18,7 @@ const WeatherList = () => {
   const loadWeather = async () => {
     setLoading(true);
     const results = [];
-    const randomIds = getRandomCityIds(15); // пробуем 15 чтобы поймать хотя бы 4–5 реальных
+    const randomIds = getRandomCityIds(10); // пробуем 10 чтобы поймать хотя бы 4–5 реальных
 
     for (const id of randomIds) {
         try {

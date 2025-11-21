@@ -1,0 +1,29 @@
+.search-box {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s;
+  background-color: white;
+}
+
+.search-box input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.items-status {
+  margin-top: 2rem;
+  text-align: center;
+  color: #666;
+  font-weight: 500;
+}

@@ -10,15 +10,15 @@ function AboutUs(){
         <div className="about-items">
           <div className="about-item">
             <span>💼</span>
-            <h2>Work at Netcracker</h2>
+            <h2>KBTU</h2>
           </div>
           <div className="about-item">
             <span>🎶</span>
-            <h2>Love music</h2>
+            <h2>music</h2>
           </div>
           <div className="about-item">
             <span>🎬</span>
-            <h2>Watch kdramas</h2>
+            <h2>films</h2>
           </div>
         </div>
       </div>

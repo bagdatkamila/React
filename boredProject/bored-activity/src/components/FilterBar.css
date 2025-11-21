@@ -1,0 +1,28 @@
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.filter-bar input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 200px;
+  outline: none;
+}
+
+.filter-bar button {
+  background: white;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filter-bar button:hover {
+  background: #eee;
+}

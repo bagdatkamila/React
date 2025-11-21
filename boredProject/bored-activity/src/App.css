@@ -1,0 +1,26 @@
+.app {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6d83f2, #a48cf0);
+  min-height: 100vh;
+  color: white;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.loading {
+  color: #fff;
+  font-size: 18px;
+}
+
+.error {
+  color: #ffdddd;
+  background: rgba(255, 0, 0, 0.3);
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 8px;
+}

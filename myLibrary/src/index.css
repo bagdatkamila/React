@@ -1,0 +1,35 @@
+:root {
+  --bg: #fafafa;
+  --text: #222;
+  --accent: #4f46e5;
+  --accent-light: #6366f1;
+  --border: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 1rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}

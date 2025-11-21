@@ -12,7 +12,7 @@ import humidity_icon from '../assets/humidity.png'
 
 const WeatherCard = ({ cityData }) => {
 
-    const inputRef = useRef();
+    const inputRef = useRef(); /*  */
     const [weatherData, setWeatherData] = useState(false);
 
     const allIcons = {

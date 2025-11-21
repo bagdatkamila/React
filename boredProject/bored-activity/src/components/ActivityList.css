@@ -1,0 +1,44 @@
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #1a1a40, #2f4680, #500ae4);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.refresh-btn {
+  background-color: #fff;
+  color: #2f4680;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  margin-bottom: 25px;
+}
+
+.refresh-btn:hover {
+  background-color: #2f4680;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.loading {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
